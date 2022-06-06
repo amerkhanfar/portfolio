@@ -60,7 +60,7 @@
             Web Developer
           </h1>
 
-          <a href="assets/pdf/Amer-cv.pdf" class="button" target="_blank"
+          <a href="assets/pdf/amer-cv.pdf" class="button" target="_blank"
             >Download CV</a
           >
         </div>
@@ -115,10 +115,8 @@
           <div>
             <h2 class="about__subtitle">I am Amer</h2>
             <p class="about__text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat
-              ut voluptates soluta, aut earum nemo recusandae cumque
-              perferendis! Recusandae alias accusamus atque.
+              Self-educated Web-Developer based in Jordan dedicated to
+              developing and optimizing interactive, user-friendly websites.
             </p>
           </div>
         </div>
@@ -227,14 +225,26 @@
             method="POST"
             class="contact__form"
           >
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+            <input
+              type="text"
+              placeholder="Name"
+              class="contact__input"
+              name="name"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              class="contact__input"
+              required
+            />
             <textarea
-              name=""
-              id=""
               cols="0"
               rows="10"
               class="contact__input"
+              name="message"
+              required
             ></textarea>
 
             <button type="submit" class="contact__button button">Send</button>
